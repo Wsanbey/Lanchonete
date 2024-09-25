@@ -1,0 +1,26 @@
+/Lanchonete
+│
+├── /src/main/java
+│   ├── /controller
+│   │   └── LoginController.java
+│   ├── /entidades
+│   │   └── Usuario.java
+│   ├── /interfaces
+│   │   └── UsuarioDAOInterface.java
+│   ├── /repository
+│   │   └── UsuarioRepository.java
+│   └── /servicos
+│       └── UsuarioService.java
+│
+├── /src/main/resources
+│   └── /META-INF
+│       └── persistence.xml (opcional, se precisar de JPA)
+│
+├── /src/main/webapp
+│   ├── /resources
+│   │   └── /css (folhas de estilo)
+│   ├── /WEB-INF
+│   │   ├── web.xml
+│   │   └── faces-config.xml
+│   ├── index.xhtml
+│   └── dashboard.xhtml
